@@ -1,0 +1,57 @@
+@media(max-width:768px){
+
+    .button {
+        display: none;
+    }
+
+    .hero1{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero1 h1{
+        font-size: 25px;
+    }
+
+    .courses-head{
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .imgweb img{
+        max-width: 32%;
+        border-radius: 8px;
+
+    }
+
+    .p{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .num{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .i01{
+        width: 100%;
+        border-bottom: 1px solid #F1F1F3;
+        padding-bottom: 20px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .sub-container-two{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    
+
+}

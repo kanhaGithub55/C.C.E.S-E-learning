@@ -1,0 +1,838 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: whitesmoke;
+    /* background-color: orange; */
+    font-family: "Be Vietnam Pro", sans-serif;
+
+}
+
+/* -------------------------------------------header section---------------------------------------------- */
+
+
+#head-line{
+    background-color: #FF9500;
+    text-align: center;      
+    margin: 10px 15px 0px 15px;
+    padding: 15px 0px ;
+    border-radius: 8px;
+    color: #FFFFFF;
+
+}
+
+.arrow{
+    margin-left: 15px;
+    max-width: 15px;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 10px 15px 0px 15px;
+    /* padding: 10px 100px; */
+    margin-inline: auto;
+    max-width: 85%;
+    
+    justify-content: space-between;
+    
+}
+
+.logo img{
+    max-width: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.button a{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 24px 10px 24px ;
+    color: #262626;
+
+}
+
+.button-section{
+    background-color: #F1F1F3;
+}
+
+.button a:hover{
+
+    background-color: #FF9500;
+    
+}
+
+.login-button a{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 14px 24px 14px 24px ;
+    color: #262626;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.login-button a:hover{
+    background-color: #FF9500;
+    color: #ffffff;
+}
+
+.company-logo{
+    background-color: none;
+    border-radius: 8px;
+}
+
+
+/* --------manu bar------ */
+
+
+.mob img{
+    width: 100px;
+    margin-inline: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ham{
+    display:none;
+}
+
+.hide {
+    display:none;
+}
+
+.mob h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FF9500;
+}
+
+
+.mob {
+    right: 0;
+    top:0;
+    bottom: 0;
+    position: absolute;
+    background-color: white;
+    width: 60%;
+}
+.mob ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+
+}
+
+.mob ul li a{
+    text-decoration: none;
+    background-color: #FCFCFD;
+    box-shadow: 0px 3px 3px 0px #FFEACC;
+    border-radius: 8px;
+}
+
+.mob ul li a:hover{
+    background-color: #F1F1F3;
+}
+
+
+.mob a{
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+@media (max-width:768px) {
+    
+    .ham{
+        display:block;
+    }
+
+   
+}
+
+/* ------------------------------------hero section-----------------------------  */
+
+.hero1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    overflow: hidden;
+    max-width: 600px;
+    padding: 20px 0px;
+    margin-inline: auto;
+
+}
+
+.hero{
+    
+    text-align: center; 
+
+}
+
+.Unlock{
+    color: #FF9500;
+    background-color: #FCFCFD;
+
+}
+
+.sub-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #FCFCFD;
+    margin-inline: auto;
+    padding: 5px  8px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.text-hero{
+    margin-bottom: 20px;
+}
+
+.sub-hero img{
+    background-color: #FCFCFD;
+}
+
+.sub-hero h1{
+    background-color: #FCFCFD;
+}
+
+.button2 a{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px ;
+    color: #262626;
+    background-color: #FCFCFD;
+}
+
+.button2 a:hover{
+    background-color: #FF9500;
+    color: #FFFFFF;
+}
+
+
+/* ----------------------------------------logo section--------------------------------- */
+.logo-head{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    margin: 50px auto;
+}
+
+.logos{ 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FCFCFD;
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+.logos img{
+    background-color: #FCFCFD;
+    max-width: 50px;
+    padding: 10px 20px; 
+}
+
+/* -----------------------video section----------------------------- */
+
+.image img{
+    max-width: 85%;
+    margin: 100px; 
+    display: block;
+    margin: 0px auto 20px auto;
+}
+
+/* -----------------------------------------------benifit section--------------------------------------  */
+
+.benifit{
+    margin-top: 30px;
+}
+
+.benifit-view{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+}
+
+.benifit-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+.benifit-text{
+    max-width: 800px;
+}
+
+.benifit-text p{
+    color: #262626;
+    line-height: 25px;
+}
+
+.view a{
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px ;
+    background-color: #FCFCFD;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #262626;
+
+  }
+
+
+
+
+  /* ---------------------benefit card section------------------- */
+
+  .benefits-cards{
+    max-width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+  }
+
+
+  .benefit-card-01{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+
+  .benefit-card-02{
+    display: flex;
+    gap: 15px;
+
+  }
+
+
+  .card{
+    max-width: 300px;
+    padding: 0px 35px 15px 35px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+
+  .card p{
+    color: #4C4C4D;
+    line-height: 25px;
+  }
+
+  .card-h1{
+    display: flex;
+    justify-content: end;
+    font-size: 42px;
+    /* background-color: #ffffff; */
+  }
+
+
+  .card-img{
+    margin-top: 15px;
+    padding: 15px;
+    float: right;
+    background-color: #F1F1F3; 
+    border-radius: 8px;
+  }
+
+
+  /* -------------------------------courses section------------------------------- */
+
+.courses{
+    margin: 30px 0px 10px 0px;
+}
+  
+.courses-view{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+}
+
+.courses-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+.courses-text{
+    max-width: 900px;
+}
+
+.courses-text p{
+    color: #262626;
+    line-height: 26px;
+}
+
+
+/* --------------------card section--------------  */
+
+.course-card-01{
+    max-width: 600px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.design-card{
+    background-color: #FFFFFF;
+    padding: 15px 25px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.design-card img{
+    max-width: 100%;
+    margin-bottom: 9px;
+
+}
+
+.week{
+    margin-right: 10px;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 8px;
+
+}
+
+.ben{
+    margin: 15px 0px 25px 0px;
+}
+
+.ben h4{
+    margin-bottom: 10px;
+}
+
+.ben p{
+    color: #4C4C4D;
+    line-height: 26px;
+}
+
+.p{
+    display: flex;
+
+    gap: 20px ;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card01-course{
+    display: flex;
+    max-width: 85%;
+    justify-content: space-between;
+    margin-inline: auto;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.course-button{
+    background-color: #F7F7F8;
+    border-radius: 8px;
+}
+
+.course-button a{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 5px 0px;
+    color: #262626;
+    background-color: #F7F7F8;
+}
+
+/* ---------------------test------------------ */
+.testmonial{
+    margin-top: 50px;
+}
+
+.first-test-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.Sarah-l{
+    background-color: #ffffff;
+    max-width: 500px;
+    border-radius: 8px;
+
+}
+
+.test-1-p{
+    padding: 25px 20px ;
+}
+
+.test-1-p p{
+    color: #4C4C4D;
+    line-height: 26px;
+}
+
+.girl{
+
+    display: flex;
+    align-items: center;
+}
+
+.girl p{
+    padding-left: 10px;
+}
+
+.girl img{
+    max-width: 60px;
+
+}
+
+.img-sec{
+    display: flex;
+    background-color:  #F1F1F3;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-top: 1px solid lightgrey;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.read{
+    text-decoration: none;
+    font-size: 15px;
+    color: #262626  ;
+    padding: 15px 20px;
+    background-color: #F7F7F8;
+    border-radius: 8px;
+}
+
+
+/* --------------------------------------------pricing section -------------------------- */
+
+.view-pricing{
+    padding:  15px 8px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.view-pricing a{
+    
+    text-decoration: none;
+    color: #262626;
+    font-size: 15px;
+    padding: 9px 12px;
+    border-radius: 8px ;
+}
+
+.view-pricing a:hover{
+    background-color: #FF9500;
+}
+
+.pricing-view{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 69px;
+    margin: 69px auto 20px auto;
+    max-width: 85%;
+}
+
+.pricing-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing-text{
+    max-width: 900px;    
+}
+
+/* --------------------------------pricing card section------------------------  */
+    
+
+
+.main-price{
+    background-color: #FFFFFF;
+    padding: 45px 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.pricing{
+    display: flex;
+    gap: 20px;
+    margin-inline: auto;
+    max-width: 95%;
+
+}
+
+.price{
+    background-color: #F1F1F3;
+    width: 50%;
+    border-radius: 8px;
+}
+
+.fee-text{
+    text-align: center;
+    padding: 10px;
+    max-width: 85%;
+    margin: 15px auto 20px auto;
+    border-radius: 7px;
+    background-color: #FFEACC;
+}
+
+.price-rate{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+
+
+
+
+.card-benifits{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    max-width: 85%;
+    margin: 18px auto;
+    padding: 20px 0px 0px 0px;
+}
+
+.feature{
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.lists{
+    max-width: 90%;
+    margin: 15px auto ;
+}
+
+.list01{
+    background-color: #F1F1F3;
+    margin: 0px auto 8px auto;
+    display: flex;
+    padding: 8px;
+    border: 1px solid #F1F1F3;
+    gap: 10px;
+    border-radius: 8px;
+
+}
+
+.list01 p{
+    color: #4C4C4D;
+    font-size: 14px;
+}
+
+.marks{
+    max-width: 20px;
+    height: 20px;
+}
+
+.button0{
+    border-radius: 0px 0px 8px 8px;
+    background-color: #FF9500;
+}
+
+.button1{
+    padding: 15px;
+    margin-inline: auto;
+    display: flex;
+    background-color: #FF9500;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+
+         /* -------------------question section--------------------------  */
+
+
+
+
+
+.last-card-top-pra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0px;
+    border-bottom: 1px solid #F1F1F3;
+    margin-bottom: 30px;
+}
+
+.last-card-right-arow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 9px;
+    margin: 20px 0px;
+    line-height: 25px;
+}
+
+.last-card-heading {
+    max-width: 330px;
+    /* border: 1px solid red; */
+    margin: 40px 0px 40px 40px;
+}
+.last-card-heading h1 {
+    font-size: 38px;
+}
+
+.last-card-heading p {
+    line-height: 25px;
+    /* margin: 40px; */
+    color: #333333;
+}
+
+.button-tag button {
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+}
+
+.last-card {
+    padding: 30px;
+    border: 1px solid #F1F1F3;
+    border-radius: 9px;
+}
+.last-card p {
+    line-height: 25px;
+}
+
+#p{
+    color: #4C4C4D;
+
+}
+
+.last-two-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-inline: auto;
+    border-radius: 9px;
+    background-color: white ;
+    margin-inline: auto;
+}
+
+.last-full-card {
+    max-width: 650px;
+    margin: 40px;
+}
+.course-percheing-card {
+    margin: 50px 0px;
+    max-width: 85%;
+    margin-inline: auto;
+}
+
+.mark0s{
+    max-width: 35px;
+}
+
+/* <!-- =============  footer section  ============= --> */
+
+footer {
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.under-footer {
+    width: 90%;
+    padding: 30px 0px;
+    margin-inline: auto;
+}
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-container {
+    max-width: 250px;
+}
+
+.footer-logo img{
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    background: none;
+    line-height: 35px;
+}
+
+.sub-container-two {
+    display: flex;
+    gap: 14px;
+}
+
+.footer-headin {
+    margin-bottom: 15px;
+} 
+
+.sub-container-two p {
+    line-height: 30px;
+}
+
+.home-about{
+    display: flex;
+}
+
+.home {
+    width: 180px;
+}
+
+.about {
+    width: 180px;
+}
+
+.social-profile {
+    width: 150px;
+}
+.social-logo {
+    border: none;
+    background: none;
+ 
+}
+
+
+hr {
+    border: 1px solid #F1F1F3;
+    margin: 30px 0px;
+}
+
+.last-footer {
+    text-align: center;
+}
+
+.lastlogo{
+    max-width: 40px;
+}

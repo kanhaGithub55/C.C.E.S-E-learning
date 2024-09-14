@@ -1,0 +1,48 @@
+@media(max-width:768px){
+
+.button {
+    display: none;
+}
+
+.inner-cont-text{
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.text-heading{
+    padding-block: 0px;
+    margin-top: 20px;
+}
+
+.text-paragraph{
+    padding-block: 0px;
+}
+
+.card-container{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card{
+    max-width: 100%;
+}
+
+.last-card{
+    flex-direction: column;
+    gap: 20px;
+    background-image: none;
+}
+
+.footer-container{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-container-two{
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+}

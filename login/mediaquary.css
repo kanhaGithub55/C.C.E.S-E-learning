@@ -1,0 +1,38 @@
+@media(max-width:768px){
+
+    .button {
+        display: none; 
+    }
+
+    .login-contener{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+
+    .para-contenat{
+        max-width: 100%;
+    }
+
+    .log{
+        max-width: 100%;
+    }
+
+    .arrow-img{
+        justify-content: center;
+    }
+
+    /* footer */
+
+.footer-container{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-container-two{
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+}

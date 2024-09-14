@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+  }
+  body{
+    background-color: whitesmoke;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+  }
+
+  /* -------------------------------------------header section---------------------------------------------- */
+
+
+#head-line{
+  background-color: #FF9500;
+  text-align: center;      
+  margin: 10px 15px 0px 15px;
+  padding: 15px 0px ;
+  border-radius: 8px;
+  color: #FFFFFF;
+
+}
+
+.arrow{
+  margin-left: 15px;
+  max-width: 15px;
+}
+
+
+.navbar{
+
+   display: flex;
+   align-items: center;
+   margin: 10px 15px 0px 15px;
+   /* padding: 10px 100px; */
+   margin-inline: auto;
+   max-width: 85%;
+   
+   justify-content: space-between;
+}
+
+.logo img{
+  max-width: 50px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.button a{
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 24px 10px 24px ;
+  color: #262626;
+
+}
+
+.button-section{
+  background-color: #F1F1F3;
+}
+
+.button a:hover{
+
+  background-color: #FF9500;
+  
+}
+
+.login-button a{
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 14px 24px 14px 24px ;
+  color: #262626;
+}
+
+.login-button{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.login-button a:hover{
+  background-color: #FF9500;
+  color: #ffffff;
+}
+
+/* --------manu bar------ */
+
+
+.mob img{
+  width: 100px;
+  margin-inline: auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ham{
+  display:none;
+}
+
+.hide {
+  display:none;
+}
+
+.mob h1{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #FF9500;
+}
+
+
+.mob {
+  /* outline:1px solid red; */
+  /* display: flex; */
+  right: 0;
+  top:0;
+  bottom: 0;
+  position: absolute;
+  background-color: white;
+  width: 60%;
+}
+.mob ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  /* padding: 0px 100px; */
+  list-style-type: none;
+
+}
+
+.mob ul li a{
+  text-decoration: none;
+  background-color: #FCFCFD;
+  box-shadow: 0px 3px 3px 0px #FFEACC;
+
+  border-radius: 8px;
+}
+
+.mob ul li a:hover{
+  background-color: #F1F1F3;
+}
+
+.mob a{
+  padding: 10px 15px;
+  /* border: 2px solid red; */
+  display: inline-block;
+}
+
+@media (max-width:768px) {
+  
+  .ham{
+      display:block;
+  }
+
+ 
+}
+  
+ 
+  
+  /* Container  */
+  
+  .container01{
+    width: 85%;
+    margin: auto;
+  }
+  .inner-cont-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .text-heading{
+    max-width: 800px;
+    padding-block: 60px;
+    font-size: 18px;
+    /* border: 1px red solid; */
+  }
+  .text-paragraph{
+    max-width: 700px;
+    padding-block: 60px;
+    color: #59595A;
+    line-height: 22px;
+    font-size: 16 px;
+    /* border: 1px solid yellow; */  
+  }
+  #line{
+   border: 1px solid #E4E4E7;
+  }
+  
+  /* Container-1  */
+  
+  .inner-cont-text-1{
+    font-size: 18px;
+    color:  #333333;
+    font-weight: 400;
+    margin-top: 70px;
+  }
+  .inner-cont-text-1 h2{
+    padding-block: 15px;
+  }
+  .inner-cont-text-1 p{
+    font-size: 16px;
+    color: #59595A;
+    line-height: 25px;
+  }
+  
+  /* .Sub-Container  */
+  
+  .card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .card{
+    max-width: 49%;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    /* outline: 1px solid red; */
+  }
+  .card img{
+    width: 50px;
+  }
+  .card h5{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  .card p{
+    font-size: 16px;
+    color: #59595A;
+    line-height: 25px;
+  }
+  
+
+  
+  
+  
+
+  .last-card {
+    padding: 40px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    border-radius: 9px;
+    background-image: url(/About-page/Abstract\ Design.png);
+    background-size: 280px ;
+    background-repeat: no-repeat;
+    background-position: 85% 50%;
+}
+
+
+.last-card h1 {
+    font-size: 40px;
+    max-width: 900px;
+}
+
+.last-card span {
+    color: #FF9500;
+}
+
+.last-card button {
+    border: none;
+    padding: 14px 16px;
+    background-color: #FF9500;
+    border-radius: 8px;
+}
+  
+
+/* <!-- =============  footer section  ============= --> */
+
+footer {
+  background-color: #fff;
+  margin-top: 100px;
+}
+
+.under-footer {
+  width: 90%;
+  padding: 30px 0px;
+  margin-inline: auto;
+}
+.footer-container {
+  width: 100%;
+  /* margin: 50px 0px; */
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  /* margin-bottom: 50px; */
+}
+
+.sub-container {
+  max-width: 250px;
+}
+
+.footer-logo img{
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background: none;
+  line-height: 35px;
+}
+
+.sub-container-two {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-headin {
+  margin-bottom: 15px;
+} 
+
+.sub-container-two p {
+  line-height: 30px;
+}
+
+.home-about{
+  display: flex;
+}
+
+.home {
+  width: 180px;
+}
+
+.about {
+  width: 180px;
+}
+
+.social-profile {
+  width: 150px;
+}
+.social-logo {
+  border: none;
+  background: none;
+
+}
+
+/* .social-logo img {
+  display: flex;
+  gap: 50px;
+} */
+
+hr {
+  border: 1px solid #F1F1F3;
+  margin: 30px 0px;
+}
+
+.last-footer {
+  text-align: center;
+}
+
+.lastlogo{
+  max-width: 40px;
+}
+
+.mark0s{
+
+  width: 40px;
+}

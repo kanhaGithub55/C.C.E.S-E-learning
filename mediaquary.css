@@ -1,0 +1,135 @@
+@media(max-width:768px){
+
+.button {
+    display: none;
+}
+
+.login-button{
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.heading{
+    /* width: 100px; */
+    font-size: 20px;
+}
+
+.sub-hero img{
+    width: 50px;
+}
+
+.hero-heading {
+    /* margin: auto; */
+    width: 93%;
+    margin-inline: auto;
+}
+
+#logos-non{
+    display: none;
+}
+
+.benifit-head{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.benefit-card-01{
+    flex-direction: column;
+}
+
+.benefit-card-02{
+    flex-direction: column;
+}
+
+.courses-head{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card01-course{
+    flex-direction: column;
+}
+
+.p{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.first-test-card{
+    flex-direction: column;
+}
+
+.pricing-head{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pricing{
+    flex-direction: column;
+}
+
+.price{
+    width: 100%;
+}
+
+.main-price{
+    padding: 25px 20px;
+}
+
+.list01{
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.last-two-card{
+    flex-direction: column;
+    /* display: block; */
+
+}
+
+.last-card-right-arow{
+    justify-content: center;
+}
+
+.last-full-card {
+    margin: 20px;
+}
+
+/* footer */
+
+.footer-container{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-container-two{
+    flex-direction: column;
+    gap: 20px;
+}
+
+}
+
+
+@media(max-width: 415px){
+
+
+ #head-line{
+    font-size: 13px;
+    font-weight: 500;
+} 
+
+.arrow{
+    margin-left: 0px;
+}
+
+
+.button2 a{
+    font-size: 12px;
+    padding: 8px 12px;
+}
+
+.heading{
+    font-size: 16px;
+}
+
+}

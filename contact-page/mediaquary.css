@@ -1,0 +1,50 @@
+@media(max-width:768px){
+
+    .button {
+        display: none;
+    }
+
+    .inner-cont-text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .text-heading{
+        padding-block: 0px;
+        margin-top: 30px;
+    }
+
+    .text-paragraph{
+        padding-block: 0px;
+    }
+
+  
+
+    .full-hero-sec{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .input-detail-container{
+        width: 100%;
+    }
+
+    .input-value{
+        flex-direction: column;
+    }
+
+   
+    /* footer */
+
+.footer-container{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-container-two{
+    flex-direction: column;
+    gap: 20px;
+}
+
+}
